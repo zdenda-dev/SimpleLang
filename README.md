@@ -1,4 +1,4 @@
-# SimpleLang
+# SimpleLang 👨‍💻
 Programming language created by AI and builded on Python.
 
 ## What is SimpleLang? 🤔
@@ -158,3 +158,4 @@ if __name__ == "__main__":
     run_simplelang('YOUR_FILE_NAME.slang')
 
 ```
+Now, you have completed the setup process of SimpleLang. Hope it will be useful! 💖
