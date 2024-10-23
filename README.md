@@ -4,6 +4,8 @@ Programming language created by AI and builded on Python.
 ## What is SimpleLang? 🤔
 SimpleLang is a simple programming language created by AI and builded on Python enviroment. It uses Python interpreter for interpreting `.slang` into machine code. You can add your own functions and rules into this programming language by modifying essential files (`lexer.py`, `parser.py`, `interpreter.py`, `simplelang_interpreter`). It's some kind of "AI experiment" and it's completly crazy!
 
+❗ **NOTE: After setup, the language has very few limited features, if you are trying to do something specific, you have to create the code yourself.** ❗
+
 ## How to use SimpleLang? ❓
 1. Make sure you have installed **Python** on your machine!
 2. Create main `program.slang` file in your project folder.
