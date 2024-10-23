@@ -13,7 +13,7 @@ SimpleLang is a simple programming language created by AI and builded on Python 
 x = 5
 print(x)
 ```
-4. Add `lexer.py` file.
+3. Add `lexer.py` file.
 ```
 def lexer(input_code):
     tokens = []
@@ -52,7 +52,7 @@ def lexer(input_code):
     return tokens
 
 ```
-5. Add `parser.py` file.
+4. Add `parser.py` file.
 ```
 def parse(tokens):
     def parse_assignment():
@@ -104,7 +104,7 @@ def parse(tokens):
             raise SyntaxError("Unknown statement")
     return ast
 ```
-6. Add `interpreter.py` file.
+5. Add `interpreter.py` file.
 ```
 def interpret(ast):
     environment = {}
@@ -139,7 +139,7 @@ def interpret(ast):
             raise SyntaxError("Unsupported statement")
 
 ```
-7. Add a `simplelang_interpreter` script for running all processes in one click.
+6. Add a `simplelang_interpreter` script for running all processes in one click.
 ```
 from lexer import lexer
 from parser import parse
