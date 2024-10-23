@@ -1,4 +1,2 @@
 x = 5
-y = 10
-z = 5
-print(z)
+print(x)
