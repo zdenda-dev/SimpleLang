@@ -1,5 +1,5 @@
 def interpret(ast):
-    environment = {}  # Prostředí pro uložení proměnných
+    environment = {}
 
     def evaluate_expression(expr):
         if expr[0] == "NUMBER":
